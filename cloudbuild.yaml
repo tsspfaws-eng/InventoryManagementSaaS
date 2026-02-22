@@ -22,3 +22,7 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/erp-repo/erp-service:$COMMIT_SHA'
+ 
+# ADD THESE LINES AT THE END:
+options:
+  logging: CLOUD_LOGGING_ONLY
